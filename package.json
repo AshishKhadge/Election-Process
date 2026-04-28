@@ -3,18 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
-  "homepage": "https://ashishkhadge.github.io/Election-Process",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-
   "dependencies": {
     "@tailwindcss/vite": "^4.2.4",
     "lucide-react": "^1.11.0",
@@ -23,7 +17,6 @@
     "react-router-dom": "^7.14.2",
     "tailwindcss": "^4.2.4"
   },
-
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.14",
